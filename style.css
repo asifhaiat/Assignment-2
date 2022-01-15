@@ -1,0 +1,208 @@
+/*.........................
+font style 
+..........................*/
+
+
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+header h2{
+    padding-left: 120px;
+}
+
+.influencers{
+    display: flex;
+    padding-left: 120px;
+}
+.main-camera{
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+.influencer{
+    margin-top: 55px;
+}
+.influencer p{
+    width: 550px;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+.influencer a{
+    text-decoration: none;
+    background-color:  deeppink;
+    color: antiquewhite;
+    border-radius: 41px;
+    padding: 10px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contrainer{
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    width: 870px;
+    border-radius: 5px;
+    padding-left: 120px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    grid-column-gap: 24px;
+    width: 950px;
+}
+.collection{
+    background-color: white;
+    box-shadow: 2px 5px 10px grey;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+.detail{
+    padding: 2vh 2vh;
+}
+.collection .banner img{
+    height: 256px;
+    width: 300px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: lightsalmon;
+}
+.fa-star.empty{
+    color: darkslategrey;
+}
+#see-more{
+    text-decoration: none;
+    color:  #E02C6D;
+    padding-left: 900px;
+
+}
+.remon{
+    color: black;
+}
+.remon-details{
+    color: black;
+}
+.remon-icon{
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    border-radius: 41px;
+    padding: 10px;
+
+}
+.book-section .remon-list img{
+    height: 320px;
+    width: 80vh;
+    padding-right: 20vh;
+}
+.book-section{
+    display: flex;
+    margin-top: 120px;
+    
+}
+.remon-padding{
+    width:60vh;
+    padding-right: 3vh;
+    padding-left: 0;
+}
+.book-part{
+    display: flex;
+    padding-left: 5vh;
+    margin-top: 5vh;
+    padding-left: 120px;
+}
+.book-list-img{
+    padding-right: 2vh;
+}
+.paragraph-part{
+    margin-left: 4vh;
+    width: 100vh;
+}
+.paragraph-part a {
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    border-radius: 41px;
+    padding: 10px;
+}
+.see-more-part{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+    width: 950px;
+}
+.see-more-part a {
+    text-decoration: none;
+    color:  deeppink;
+}
+
+.footer-section{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .collections {    
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influencers{
+    display: block;
+    }
+    .book-part{
+        display:block;
+    }
+    .collection{
+        width:51.3vh;
+    }
+    .section-title{
+        text-align: left;
+    }
+    .paragraph-part{
+        width:50vh;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .influencers{
+        display: block;
+    }
+    .book-part{
+        display:block;
+    }
+    .collection{
+        width:51.3vh;
+    }
+    .section-title{
+        text-align: left;
+    }
+    .paragraph-part{
+        width:70vh;
+    }
+    
+    
+}
+
+.footer-section h3,h5,h6{
+    font-weight: 500;
+}
+.main-camera:hover{
+    cursor: pointer;
+} 
